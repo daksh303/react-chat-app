@@ -14,10 +14,9 @@ function App() {
 // make the data static
     <div className="App">
    <ChatEngine height="100vh"
-    projectID = "78fee5b7-c6ec-477c-bf61-b11dfc4e0109" 
-    userName= {localStorage.getItem('username')}
-
-    userSecret= {localStorage.getItem('password')}
+      userName='daksh'
+			userSecret='daksh@303'
+			projectID='78fee5b7-c6ec-477c-bf61-b11dfc4e0109'
     //render our own chat props
     // editing out the main chat Feed using this syntax check in docs
 
