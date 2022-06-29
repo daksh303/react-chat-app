@@ -17,13 +17,14 @@ function App() {
     projectID = "78fee5b7-c6ec-477c-bf61-b11dfc4e0109" 
     userName= {localStorage.getItem('username')}
 
-    userSecret={localStorage.getItem('password')}
+    userSecret= {localStorage.getItem('password')}
     //render our own chat props
     // editing out the main chat Feed using this syntax check in docs
 
     // Chat Feed <ChatFeed {...props} /> receives all Chat Engine props, 
     // and will render a chat feed for the active chat.
     renderChatFeed = {(chatAppProps)=> <ChatFeed {... chatAppProps} />} />
+    onNewMessage={() => new Audio('https://chat-engine-assets.s3.amazonaws.com/click.mp3').play()}
     </div>
   );
 }
