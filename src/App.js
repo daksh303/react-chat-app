@@ -16,7 +16,7 @@ function App() {
    <ChatEngine height="100vh"
       userName='daksh'
 			userSecret='daksh@303'
-			projectID='78fee5b7-c6ec-477c-bf61-b11dfc4e0109'
+			projectID='cb335cd3-4675-4aa2-bc31-f5119b19fe17'
     //render our own chat props
     // editing out the main chat Feed using this syntax check in docs
 
