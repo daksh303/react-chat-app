@@ -16,7 +16,7 @@ const App = () => {
       height="100vh"
       userName='Daksh'
 			userSecret='12345'
-			projectID='cb335cd3-4675-4aa2-bc31-f5119b19fe17'
+			projectID='608277c5-e9f6-4a38-80d3-2413107fe0b4'
       renderChatFeed={(chatAppProps) => <ChatFeed {...chatAppProps} />}
       onNewMessage={() => new Audio('https://chat-engine-assets.s3.amazonaws.com/click.mp3').play()}
     />
